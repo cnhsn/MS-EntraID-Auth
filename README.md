@@ -88,7 +88,7 @@ server {
     location /auth {
         # Reverse proxy to your Node.js authentication application
         proxy_pass http://127.0.0.1:3000; 
-        # ... Header directives like in the previous examples ...
+        # ... Header directives ...
     }
 
     location / {
