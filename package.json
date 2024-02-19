@@ -1,0 +1,20 @@
+{
+  "name": "MS-EntraID-Auth",
+  "version": "1.0.0",
+  "description": "Node.js OAuth2 authentication proxy for Azure AD",
+  "main": "app.js",  
+  "dependencies": {
+    "dotenv": "^16.0.3", 
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-azure-ad": "^4.3.0" 
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Hasan Can",
+  "license": "Apache License 2.0" 
+}
